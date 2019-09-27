@@ -1,0 +1,241 @@
+body, html {
+    margin: 0;
+    font-family: "PT Sans";
+}
+
+@font-face {
+    font-family: "PT Sans";
+    /*src: url(fonts/PTSansBold.ttf);*/
+    src: url(fonts/PTSans.ttf);
+}
+
+#header {
+    background-image: url(img/bg.jpg);
+    /*background-repeat: repeat;*/
+    /*background: url(img/bg.jpg) no-repeat center;*/
+    background-position-x: center;
+    background-repeat: repeat-x;
+    height: 565px;
+    padding: 0px;
+    /*min-width: 1280px;*/
+    position: relative;
+}
+#wt{
+    background-image: url(img/wt.png);
+    background-position-x: center;
+    background-repeat: repeat-x;
+    height: 310px;
+    position: absolute;
+    width: 100%;
+    margin-top: 458px;
+    z-index: 1;
+    height: 110px;
+}
+#menu {
+    padding: 0px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    font-size: 20pt;
+    margin-top: 360px;
+}
+#menu li {
+    display: inline;
+}
+
+#menu li a {
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+}
+
+#title{
+    font-size: 72pt;
+    color: white;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    margin-top: 220px;
+    position: absolute;
+    font-weight: 900;
+}
+
+#panel {
+    display: table;
+    /*position: absolute;*/
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    position: relative;
+    top: -40px;
+    width: 100%;
+}
+
+.panelElement {
+    display: inline-flex;
+    padding-left: inherit;
+    padding-right: inherit;
+    display: table-cell;
+}
+
+.ico {
+    display: table;
+    padding-left: inherit;
+    padding-right: inherit;
+    margin: auto;
+}
+
+.icoText {
+
+    font-size: 16pt;
+    text-align: center;
+    color: #00ada3;
+    font-weight: 600;
+}
+
+#mainPage{
+    /*position: absolute;*/
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 800px;
+    background-color: #eee;
+}
+
+#gr {
+    width: 100%;
+}
+
+img {
+    width: inherit;
+}
+
+.titleContent {
+    text-align: center;
+}
+
+.BlockTable{
+    margin-left: inherit;
+    margin-right: inherit;
+    /*display: table;*/
+    width: 80%;
+}
+
+.siteBlock {
+    /*width: 500px;*/
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 40%;
+    vertical-align: top;
+    display: table-cell;
+}
+
+.imageContent {
+    width: inherit;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.textContent {
+    width: inherit;
+    width: 100%;
+}
+
+#mainImage {
+    border-radius: inherit;
+    width: inherit;
+}
+
+#dev {
+    background-color: #eee;
+}
+
+#specialistsPage {
+    background-color: #eee;
+}
+
+#somePage {
+    background-color: #eee;
+}
+
+#specialists {
+    width: 90%;
+    margin: auto;
+}
+
+.specialistsPhoto {
+    border-radius: 5px;
+}
+
+.specialistsText {
+    vertical-align: top;
+    background-color: white;
+    border-radius: 5px;
+    padding-left: 15px;
+}
+
+.specialistsName {
+    font-weight: 600;
+}
+
+#licensePage {
+    background-color: #eee;
+}
+
+.cert {
+    width: 10%;
+}
+
+.gallery {
+    width: 90%;
+    margin: auto;
+}
+
+#services {
+    margin: auto;
+}
+
+.page {
+    width: 90%;
+    margin: auto;
+    background: #eee;
+    display: table;
+}
+
+.submenu li {
+    margin-bottom: 17px;
+}
+
+/*.submenu li a {*/
+/*    color: black;*/
+/*    text-decoration: none;*/
+/*}*/
+
+.submenu {
+    list-style: none;
+    padding-right: 50px;
+    font-size: 16pt;
+    margin-bottom: 300px;
+    float: left;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    transition: color 0.35s;
+    color: #00ada3;
+}
+
+.withSubmenu {
+    padding-left: 380px;
+
+}
+
